@@ -6,7 +6,10 @@
   <link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.css">
 </head>
 <body>
+  <div class="header">
   <h1>AKAN</h1>
+  </div>
+  <div class="topic">
   <P>The Akan people of Ghana frequently name 
     <br>their children after the day of the week
     <br>they were born and the order in which they
@@ -15,14 +18,17 @@
     <br>of the person. Middle names have considerably
     <br>more variety and can refer to their birth 
     <br>order, twin status, or an ancestor's middle name.</P>
+    </div>
+    <div class="form">
   <form>
     <label for="fname">Date of birth:</label><br>
-    <input type="text" id="fname" name="fname" value="Date of birth"><br>
+    <input type="number" id="day" placeholder="Date of birth"value="Date of birth"><br>
     <label for="lname">Month:</label><br>
-    <input type="text" id="lname" name="lname" value="Month"><br>
+    <input type="number" id="month" placeholder="Month" value="Month"><br>
     <label for="lname">Year:</label><br>
-    <input type="text" id="lname" name="lname" value="Year"><br><br>
+    <input type="number" id="Year" placeholder="Year" value="Year"><br><br>
     <input type="submit" value="Submit">
-  </form> 
+  </form>
+  </div>
 </body>
 </html>
