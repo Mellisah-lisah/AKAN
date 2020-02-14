@@ -7,10 +7,12 @@ Is a system in which Ghana people name their children following the day of the w
 1. Javascript
 2.Html
 3.CSS
-
+4. Bootstrap
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+aliceochieng25@gmail.com
++254745799525
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+###  Link
+To run this project you can use thelink:
+ https://mellisah-lisah.github.io/AKAN/
   
