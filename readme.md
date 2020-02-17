@@ -4,7 +4,7 @@ Is a system in which Ghana people name their children following the day of the w
 ### AUTHOR:
 OCHIENG ALICE
 ## Known Bugs;
-
+* At first js was not working.
 ## Technologies Use:
  * Javascript
  * Html
