@@ -9,6 +9,7 @@
  .header{
    text-align: center;
  }
- form{
+ .container{
    text-align: center;
+   color: rgb(220, 243, 245);
  }
