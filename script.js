@@ -1,5 +1,5 @@
 function output() {
-  var day = doucument.getElementById("day").value;
+  var day = document.getElementById("day").value;
   var dd = parseInt(day);
   var month = document.getElementById("month").value;
   var mm = parseInt(month);
@@ -14,7 +14,6 @@ function output() {
   }
   else{
   var gender = 'female';
-
   }
   if(mm < 1 || mm > 12 || mm == 2 && dd > 29){
   alert("INVALID MONTH");
@@ -26,7 +25,7 @@ function output() {
   document.getElementById("outcome").innerHTML =
   alert("Born on Monday),your akan name is" + boy[1]);
   }
-  if(Math.ceil(result) == 2 && gender ==='male'){
+  else if(Math.ceil(result) == 2 && gender ==='male'){
   document.getElementById.ElementById("outcome").innerHTML =
   alert("Born on Tuesday,your akan name is" + boy[2]);
   }
