@@ -4,7 +4,10 @@
   <title>AKAN</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.css">
-</head>
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> --> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+</head> 
 <body>
   <div class="header">
   <h1>AKAN</h1>
@@ -19,19 +22,21 @@
     <br>more variety and can refer to their birth 
     <br>order, twin status, or an ancestor's middle name.</P>
      </div>
-     <div class="container margin">
+     <div class="container margin"> 
+       <form name="my-day" onsubmit="return output()">
                <label>Day</label><br>
-               <input type="number"id="day" placeholder="DD" required><br>
+               <input type="number"id="day" placeholder="DD" required max="31" min="1"><br>
                <label>Month</label><br>
-               <input type="number"id="month" placeholder="MM" required><br>
+               <input type="number"id="month" placeholder="MM" required max="12" min="1"><br>
                <label>Year</label><br>
                <input type="number"id="year" placeholder="YYYY" required><br>
                <label>Gender</label><br>
                <input type="radio"name="gender"id="gender" value="male" checked>Male<br>
               <input type="radio"name="gender"value="female">Female<br>
-            <input type="submit"value="submit" class="btn btn primary btn-lg"onclick="output()">
-  <div id="outcome"></div>
-</div>
+            <input type="submit" name="submit" value="submit"  onclick="output()">
+ </form>
+            <div id="outcome"></div>
+</div> 
 
   <script src="script.js"></script>
 </body>
