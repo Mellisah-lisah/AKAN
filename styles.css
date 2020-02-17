@@ -1,7 +1,7 @@
  body{
    background-image: url(https://bit.ly/3bF5JWf);
  }
- .topic{
+ .Topic{
    text-align: center;
    font-size: x-large;
    color: aliceblue;
@@ -11,8 +11,10 @@
  }
  .container{
    text-align: center;
-   color:darkblue;
+   color:black;
+
  }
- h1{
-   font-size: auto;
- }
+h1{
+  font-size: xx-large;
+}
+
