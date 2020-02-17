@@ -3,6 +3,8 @@
 Is a system in which Ghana people name their children following the day of the week in which the child is born.
 ### AUTHOR:
 OCHIENG ALICE
+## Known Bugs;
+
 ## Technologies Use:
  * Javascript
  * Html
